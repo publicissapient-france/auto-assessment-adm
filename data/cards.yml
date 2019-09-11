@@ -1,0 +1,351 @@
+---
+- title: AGILE BASICS
+  icon: icons/agile.svg
+  theme: Continuous improvement
+  description_fr: |
+    
+  description_en: |
+    
+  tags: '#CI'
+  cardcolor: agile_color
+  textcolor: light_text
+  iconcolor: #000000
+  cardPos: cardA
+
+- title: AGILE BASICS
+  icon: icons/agile.svg
+  theme: Backlog management
+  description_fr: |
+    
+  description_en: |
+    
+  tags: '#grooming #backlog'
+  cardcolor: agile_color
+  textcolor: light_text
+  iconcolor: #000000
+  cardPos: cardB
+
+- title: AGILE BASICS
+  icon: icons/agile.svg
+  theme: Synchronisation
+  description_fr: |
+    
+  description_en: |
+    
+  tags: '#daily #demo #ritual'
+  cardcolor: agile_color
+  textcolor: light_text
+  iconcolor: #000000
+  cardPos: cardC
+
+- title: METROLOGY
+  icon: icons/metrics.svg
+  theme: Business indicators
+  description_fr: |
+    
+  description_en: |
+    
+  tags: '#value'
+  cardcolor: metrology_color
+  textcolor: light_text
+  iconcolor: #000000
+  cardPos: cardA
+
+- title: METROLOGY
+  icon: icons/metrics.svg
+  theme: Strategy & tools
+  description_fr: |
+    
+  description_en: |
+    
+  tags: '#datalake #ELK'
+  cardcolor: metrology_color
+  textcolor: light_text
+  iconcolor: #000000
+  cardPos: cardB
+
+- title: METROLOGY
+  icon: icons/metrics.svg
+  theme: Usage tracking
+  description_fr: |
+    
+  description_en: |
+    
+  tags: '#monitoring'
+  cardcolor: metrology_color
+  textcolor: light_text
+  iconcolor: #000000
+  cardPos: cardC
+
+- title: CD PIPELINE
+  icon: icons/pipeline.svg
+  theme: Build & Package
+  description_fr: |
+    
+  description_en: |
+    
+  tags: '#continuousIntegration'
+  cardcolor: continuous_delivery_color
+  textcolor: light_text
+  iconcolor: #000000
+  cardPos: cardA
+
+- title: CD PIPELINE
+  icon: icons/pipeline.svg
+  theme: Provisionning & Deploy
+  description_fr: |
+    
+  description_en: |
+    
+  tags: '#infraAsCode #IAAS'
+  cardcolor: continuous_delivery_color
+  textcolor: light_text
+  iconcolor: #000000
+  cardPos: cardB
+
+- title: CD PIPELINE
+  icon: icons/pipeline.svg
+  theme: Continuous tests
+  description_fr: |
+    
+  description_en: |
+    
+  tags: '#fastFeedback #testAuto'
+  cardcolor: continuous_delivery_color
+  textcolor: light_text
+  iconcolor: #000000
+  cardPos: cardC
+
+- title: TESTING
+  icon: icons/testing.svg
+  theme: Strategy
+  description_fr: |
+    
+  description_en: |
+    
+  tags: '#testPyramid'
+  cardcolor: testing_color
+  textcolor: light_text
+  iconcolor: #000000
+  cardPos: cardA
+
+- title: TESTING
+  icon: icons/testing.svg
+  theme: Frameworks & Tools
+  description_fr: |
+    
+  description_en: |
+    
+  tags: '#unitTest #intTest #perf'
+  cardcolor: testing_color
+  textcolor: light_text
+  iconcolor: #000000
+  cardPos: cardB
+
+- title: TESTING
+  icon: icons/testing.svg
+  theme: Practices
+  description_fr: |
+    
+  description_en: |
+    
+  tags: '#TDD #BDD #testFirst'
+  cardcolor: testing_color
+  textcolor: light_text
+  iconcolor: #000000
+  cardPos: cardC
+
+- title: CODE QUALITY
+  icon: icons/quality.svg
+  theme: Practices
+  description_fr: |
+    
+  description_en: |
+    
+  tags: '#cleanCode #refactoring'
+  cardcolor: code_quality_color
+  textcolor: dark_text
+  iconcolor: black
+  cardPos: cardA
+
+- title: CODE QUALITY
+  icon: icons/quality.svg
+  theme: Community
+  description_fr: |
+    
+  description_en: |
+    
+  tags: '#codeReview #pair'
+  cardcolor: code_quality_color
+  textcolor: dark_text
+  iconcolor: black
+  cardPos: cardB
+
+- title: CODE QUALITY
+  icon: icons/quality.svg
+  theme: Tools
+  description_fr: |
+    
+  description_en: |
+    
+  tags: '#sonar'
+  cardcolor: code_quality_color
+  textcolor: dark_text
+  iconcolor: black
+  cardPos: cardC
+
+- title: COLLABORATION
+  icon: icons/collaboration.svg
+  theme: Transparency
+  description_fr: |
+    
+  description_en: |
+    
+  tags: '#systemThinking'
+  cardcolor: collaboration_color
+  textcolor: dark_text
+  iconcolor: black
+  cardPos: cardA
+
+- title: COLLABORATION
+  icon: icons/collaboration.svg
+  theme: Collective ownership
+  description_fr: |
+    
+  description_en: |
+    
+  tags: '#oneTeam #noHero'
+  cardcolor: collaboration_color
+  textcolor: dark_text
+  iconcolor: black
+  cardPos: cardB
+
+- title: COLLABORATION
+  icon: icons/collaboration.svg
+  theme: Spec by example
+  description_fr: |
+    
+  description_en: |
+    
+  tags: '#BDD #executableDoc'
+  cardcolor: collaboration_color
+  textcolor: dark_text
+  iconcolor: black
+  cardPos: cardC
+
+- title: PARTNERSHIP
+  icon: icons/partnership.svg
+  theme: PO onboarded
+  description_fr: |
+    
+  description_en: |
+    
+  tags: '#productOwnership'
+  cardcolor: bizdev_partnership_color
+  textcolor: dark_text
+  iconcolor: black
+  cardPos: cardA
+
+- title: PARTNERSHIP
+  icon: icons/partnership.svg
+  theme: Business value model
+  description_fr: |
+    
+  description_en: |
+    
+  tags: '#value #BVM'
+  cardcolor: bizdev_partnership_color
+  textcolor: dark_text
+  iconcolor: black
+  cardPos: cardB
+
+- title: PARTNERSHIP
+  icon: icons/partnership.svg
+  theme: Slicing
+  description_fr: |
+    
+  description_en: |
+    
+  tags: '#storyMapping'
+  cardcolor: bizdev_partnership_color
+  textcolor: dark_text
+  iconcolor: black
+  cardPos: cardC
+
+- title: LEADERSHIP
+  icon: icons/leadership.svg
+  theme: Decentralized decisions
+  description_fr: |
+    
+  description_en: |
+    
+  tags: '#delegationPoker'
+  cardcolor: leadership_color
+  textcolor: light_text
+  iconcolor: #000000
+  cardPos: cardA
+
+- title: LEADERSHIP
+  icon: icons/leadership.svg
+  theme: Space for sharing
+  description_fr: |
+    
+  description_en: |
+    
+  tags: '#BBL #hackathon'
+  cardcolor: leadership_color
+  textcolor: light_text
+  iconcolor: #000000
+  cardPos: cardB
+
+- title: LEADERSHIP
+  icon: icons/leadership.svg
+  theme: Start with why
+  description_fr: |
+    
+  description_en: |
+    
+  tags: '#hostLeadership'
+  cardcolor: leadership_color
+  textcolor: light_text
+  iconcolor: #000000
+  cardPos: cardC
+
+- title: PEOPLE
+  icon: icons/people.svg
+  theme: Develop People
+  description_fr: |
+    
+  description_en: |
+    
+  tags: '#trust #training'
+  cardcolor: people_color
+  textcolor: dark_text
+  iconcolor: black
+  cardPos: cardA
+
+- title: PEOPLE
+  icon: icons/people.svg
+  theme: Respect
+  description_fr: |
+      
+    description_en: |
+      
+  tags: '#rightForFailure'
+  cardcolor: people_color
+  textcolor: dark_text
+  iconcolor: black
+  cardPos: cardB
+
+- title: PEOPLE
+  icon: icons/people.svg
+  theme: Role modeling
+  description_fr: |
+    
+  description_en: |
+    
+  tags: '#leadByExample'
+  cardcolor: people_color
+  textcolor: dark_text
+  iconcolor: black
+  cardPos: cardC
