@@ -2,11 +2,9 @@
 - title: AGILE BASICS
   icon: icons/agile.svg
   theme: Continuous improvement
-  description_fr: |
-    
-  description_en: |
-    
-  tags: '#CI'
+  description_fr: "En tant qu'équipe, nous travaillons ensemble à améliorer notre fonctionnement en continu. Par exemple, des rétrospectives sont faites régulièrement. Les actions font l'objet d'un suivi régulier, mesurable et officiel"
+  description_en: "We as a team (including Ops and Helpdesk) work together to continuously improve our collaboration. For example, retrospectives are done regularly. Actions are followed up in a regular, measurable, and official way"
+  tags: '#cycle #grow'
   cardcolor: agile_color
   textcolor: light_text
   iconcolor: #000000
@@ -15,10 +13,8 @@
 - title: AGILE BASICS
   icon: icons/agile.svg
   theme: Backlog management
-  description_fr: |
-    
-  description_en: |
-    
+  description_fr: "Le Product Owner met régulièrement à jour un backlog ordonné et qualifié, qui est partagé avec l'équipe et l'ensemble des parties prenantes. Avant le développement, nous, l'équipe en entier, découpons en User Stories, et travaillons ensemble sur les critères d'acceptance. Il existe une DoR et une DoD"
+  description_en: "The Product Owner regularly updates an ordered and qualified backlog, which is shared with the team and stakeholders. Before development, we, the entire team slice epics into User Stories and work together on the acceptance criteria. There are a DoR and a DoD"
   tags: '#grooming #backlog'
   cardcolor: agile_color
   textcolor: light_text
@@ -28,10 +24,8 @@
 - title: AGILE BASICS
   icon: icons/agile.svg
   theme: Synchronisation
-  description_fr: |
-    
-  description_en: |
-    
+  description_fr: "A chaque niveau de l'organisation, les points de synchronisation sont structurés et connus de tous : l'équipe fait des daily meetings, des backlog groomings, des sessions inter-équipes, des démonstrations, et s'appuie sur un management visuel efficace et clair"
+  description_en: "On all organizational levels, synchronization points are set up, known by all teammates and carried out, including: daily meetings, backlog grooming, inter-team sessions, demonstrations. These synchronizations are supported via clear efficient visual management"
   tags: '#daily #demo #ritual'
   cardcolor: agile_color
   textcolor: light_text
@@ -41,10 +35,8 @@
 - title: METROLOGY
   icon: icons/metrics.svg
   theme: Business indicators
-  description_fr: |
-    
-  description_en: |
-    
+  description_fr: "Afin de piloter son activité et améliorer son efficacité opérationnelle, le business dispose d'indicateurs métier pertinents dans des tableaux de bord, mis à jour de façon automatique"
+  description_en: "Indicators linked to product delivered value are available in dashboards, which allow all actors to get feedback about their activity so we may adapt and enhance performance"
   tags: '#value'
   cardcolor: metrology_color
   textcolor: light_text
@@ -54,11 +46,9 @@
 - title: METROLOGY
   icon: icons/metrics.svg
   theme: Strategy & tools
-  description_fr: |
-    
-  description_en: |
-    
-  tags: '#datalake #ELK'
+  description_fr: "Nous disposons d'une stratégie commune permettant d'améliorer notre capacité globale à mesurer grâce à des outils permettant d'exposer l'évolution d'indicateurs dans le temps et d'effectuer des corrélations"
+  description_en: "We rely on a common strategy helping us to improve our measurement capacity, thanks to tools supporting indicators time-based analysis and correlations"
+  tags: '#metrics #logs'
   cardcolor: metrology_color
   textcolor: light_text
   iconcolor: #000000
@@ -67,10 +57,8 @@
 - title: METROLOGY
   icon: icons/metrics.svg
   theme: Usage tracking
-  description_fr: |
-    
-  description_en: |
-    
+  description_fr: "Afin de détecter des anomalies, monitorer l'activité et l'usage du produit, les C-level et nous avons accès à des tableaux de bord partagés mis à jour en temps réel"
+  description_en: "In order to detect potential issues, monitor activity and product usage, we (all IT actors) have access to shared real-time dashboards"
   tags: '#monitoring'
   cardcolor: metrology_color
   textcolor: light_text
@@ -80,10 +68,8 @@
 - title: CD PIPELINE
   icon: icons/pipeline.svg
   theme: Build & Package
-  description_fr: |
-    
-  description_en: |
-    
+  description_fr: "La construction et le packaging des artefacts sont réalisés par un automate. Ils sont déposés automatiquement sur un serveur de stockage sécurisé. La traçabilité est assurée"
+  description_en: "Artifacts building and packaging are not hand-made. They are uploaded automatically on a shared server, secured, and dedicated. Traceability is ensured"
   tags: '#continuousIntegration'
   cardcolor: continuous_delivery_color
   textcolor: light_text
@@ -93,11 +79,9 @@
 - title: CD PIPELINE
   icon: icons/pipeline.svg
   theme: Provisionning & Deploy
-  description_fr: |
-    
-  description_en: |
-    
-  tags: '#infraAsCode #IAAS'
+  description_fr: "Afin de réduire les erreurs et le temps de déploiement, la mise à disposition d'environnements et le déploiement des livrables sont réalisés par un automate."
+  description_en: "To decrease error and deploy time, environment setup and artifact deployment are not hand-made."
+  tags: '#infraAsCode #CD'
   cardcolor: continuous_delivery_color
   textcolor: light_text
   iconcolor: #000000
@@ -106,10 +90,8 @@
 - title: CD PIPELINE
   icon: icons/pipeline.svg
   theme: Continuous tests
-  description_fr: |
-    
-  description_en: |
-    
+  description_fr: "Afin de fournir un feedback rapide sur les développements et de réduire la validation manuelle malgré l’augmentation de la base de code de l'application, les tests sont déclenchés automatiquement dans l'usine logicielle"
+  description_en: "In order to provide fast feedback on changes and decrease testing time despite application code base growth, tests are triggered automatically in the software factory"
   tags: '#fastFeedback #testAuto'
   cardcolor: continuous_delivery_color
   textcolor: light_text
@@ -119,10 +101,8 @@
 - title: TESTING
   icon: icons/testing.svg
   theme: Strategy
-  description_fr: |
-    
-  description_en: |
-    
+  description_fr: "Nous maintenons à jour notre stratégie de test, qui permet à tous de visualiser les enjeux et les moyens mis en œuvre pour assurer la qualité de l'acceptance du produit"
+  description_en: "We keep our testing strategy up-to-date, allowing everyone to have a somewhat clear view of objectives and means in order to ensure acceptance and product quality"
   tags: '#testPyramid'
   cardcolor: testing_color
   textcolor: light_text
@@ -132,11 +112,9 @@
 - title: TESTING
   icon: icons/testing.svg
   theme: Frameworks & Tools
-  description_fr: |
-    
-  description_en: |
-    
-  tags: '#unitTest #intTest #perf'
+  description_fr: "Nous disposons de frameworks et outils de tests permettant de répondre aux différents types de tests, et ceux-ci sont adaptés au contexte technique et fonctionnel"
+  description_en: "We have testing tools and frameworks designed for all kinds of tests, and those fit our technical and functional context"
+  tags: '#pytest #ginkGo #perf'
   cardcolor: testing_color
   textcolor: light_text
   iconcolor: #000000
@@ -145,10 +123,8 @@
 - title: TESTING
   icon: icons/testing.svg
   theme: Practices
-  description_fr: |
-    
-  description_en: |
-    
+  description_fr: "Nous connaissons les pratiques du TDD et BDD, et les typologies de tests (unitaire, intégration, E2E, performance). Nous choisissons et maintenons la meilleure technique en fonction du contexte"
+  description_en: "We understand TDD and BDD practices, and tests typology (unit, integration, E2E, performance). We have implemented and maintain the best technique according to the context"
   tags: '#TDD #BDD #testFirst'
   cardcolor: testing_color
   textcolor: light_text
@@ -158,10 +134,8 @@
 - title: CODE QUALITY
   icon: icons/quality.svg
   theme: Practices
-  description_fr: |
-    
-  description_en: |
-    
+  description_fr: "Les développeurs maîtrisent les principes théoriques de la qualité de code : CleanCode, Legacy refactoring, SOLID. Les développeurs appliquent la Boyscout rule sur la base de code"
+  description_en: "The developers know theorical principles of code quality, such as CleanCode, Legacy refactoring, and SOLID. Developers apply the Boyscout rule on the code base"
   tags: '#cleanCode #refactoring'
   cardcolor: code_quality_color
   textcolor: dark_text
@@ -171,114 +145,96 @@
 - title: CODE QUALITY
   icon: icons/quality.svg
   theme: Community
-  description_fr: |
-    
-  description_en: |
-    
+  description_fr: "Les développeurs font régulièrement des revues de code, lors desquelles ils peuvent échanger, confronter leurs points de vue, et faire évoluer les règles communes, qui sont formalisées et partagées de façon transparente et accessible"
+  description_en: "The developers regularly do code reviews, where they can share and challenge their points of view, and update common rules"
   tags: '#codeReview #pair'
   cardcolor: code_quality_color
   textcolor: dark_text
-  iconcolor: black
+  iconcolor: #000000
   cardPos: cardB
 
 - title: CODE QUALITY
   icon: icons/quality.svg
   theme: Tools
-  description_fr: |
-    
-  description_en: |
-    
-  tags: '#sonar'
+  description_fr: "Des outils d'analyse de code permettent de mesurer la qualité de façon tangible, de pointer les violations de règles, et de constater l'évolution dans le temps des métriques"
+  description_en: "Code analysis tools are used to tangibly measure quality, detect rule violations, and compare the metrics on a temporal axis"
+  tags: '#sonar #goreportcard #pyflakes'
   cardcolor: code_quality_color
   textcolor: dark_text
-  iconcolor: black
+  iconcolor: #000000
   cardPos: cardC
 
 - title: COLLABORATION
   icon: icons/collaboration.svg
   theme: Transparency
-  description_fr: |
-    
-  description_en: |
-    
+  description_fr: "Afin d'avoir une efficacité globale, nous nous attachons à exposer à nos partenaires nos objectifs, nos contraintes et nos priorités. La transparence réciproque permet d'assurer une meilleure collaboration"
+  description_en: "In order to globalize the efficiency, we are committed to expose our objectives, constraints and priorities to our partners. Mutual transparency allows better collaboration"
   tags: '#systemThinking'
   cardcolor: collaboration_color
   textcolor: dark_text
-  iconcolor: black
+  iconcolor: #000000
   cardPos: cardA
 
 - title: COLLABORATION
   icon: icons/collaboration.svg
   theme: Collective ownership
-  description_fr: |
-    
-  description_en: |
-    
+  description_fr: "En tant qu'équipe, nous portons une attention particulière à notre résilience. Nous sommes co-responsables et assurons la pérennité de nos pratiques en évitant de polariser rôles et connaissances sur une seule personne"
+  description_en: "We as a team particularly pays attention to our resilience. We are co-responsible and practice sustainability by avoiding concentrated roles and knowledge held by one single person"
   tags: '#oneTeam #noHero'
   cardcolor: collaboration_color
   textcolor: dark_text
-  iconcolor: black
+  iconcolor: #000000
   cardPos: cardB
 
 - title: COLLABORATION
   icon: icons/collaboration.svg
   theme: Spec by example
-  description_fr: |
-    
-  description_en: |
-    
+  description_fr: "Specs, tests et guides utilisateurs sont un seul et même document, produit par l'ensemble des parties prenantes qui explorent les besoins métiers et prennent des exemples selon une démarche itérative. Cette documentation vivante supporte les tests automatiques et fait gagner du temps"
+  description_en: "Specifications, tests and user guides are one single document, produced by BAs, developers, testers and support teammates who iteratively explore user needs and provide examples. This living documentation allows automated testing and saves time"
   tags: '#BDD #executableDoc'
   cardcolor: collaboration_color
   textcolor: dark_text
-  iconcolor: black
+  iconcolor: #000000
   cardPos: cardC
 
 - title: PARTNERSHIP
-  icon: icons/partnership.svg
+  icon: icons/partnership_V2.svg
   theme: PO onboarded
-  description_fr: |
-    
-  description_en: |
-    
+  description_fr: "Le Product Owner fait partie de l'équipe, il écoute les membres, il accepte de faire des expérimentations. Il contribue à l'amélioration continue en participant notamment aux rétrospectives"
+  description_en: "The Product Owner is part of the team, they listen to the members and accept to experiment. They contribute to continuous improvement and take part in retrospectives"
   tags: '#productOwnership'
   cardcolor: bizdev_partnership_color
   textcolor: dark_text
-  iconcolor: black
+  iconcolor: #000000
   cardPos: cardA
 
 - title: PARTNERSHIP
-  icon: icons/partnership.svg
+  icon: icons/partnership_V2.svg
   theme: Business value model
-  description_fr: |
-    
-  description_en: |
-    
+  description_fr: "Afin de maximiser la valeur délivrée, nous nous placons dans une stratégie globale et non limitée à notre périmètre. La réflexion se base sur les objectifs métier, et intègre: contexte, coûts, bénéfices, risques, qualité…"
+  description_en: "In order to maximize delivered product value, we (business and IT) use an efficient framework and a unified vocabulary when discussing prioritization. The reflection is based on business objectives, and incorporates: context, costs, benefits, risks, quality…"
   tags: '#value #BVM'
   cardcolor: bizdev_partnership_color
   textcolor: dark_text
-  iconcolor: black
+  iconcolor: #000000
   cardPos: cardB
 
 - title: PARTNERSHIP
-  icon: icons/partnership.svg
+  icon: icons/partnership_V2.svg
   theme: Slicing
-  description_fr: |
-    
-  description_en: |
-    
+  description_fr: "Une attention particulière est portée sur les découpages, ce qui nous permet de livrer régulièrement des incréments apportant de la valeur aux clients. Tous les membres de l'équipe (PO compris) prennent part régulièrement à des sessions de découpage"
+  description_en: "A particular attention is given to slicing allowing us to deliver increments that bring value to the clients. All teammates (including the PO), regularly take part of slicing sessions"
   tags: '#storyMapping'
   cardcolor: bizdev_partnership_color
   textcolor: dark_text
-  iconcolor: black
+  iconcolor: #000000
   cardPos: cardC
 
 - title: LEADERSHIP
-  icon: icons/leadership.svg
+  icon: icons/leadership_V2.svg
   theme: Decentralized decisions
-  description_fr: |
-    
-  description_en: |
-    
+  description_fr: "Afin d'éviter les goulots d'etranglement et le contrôle centralisé, les ordres imposés par la hiérarchie sont limités. Les responsables expriment clairement les domaines où la décision est hiérarchique et ceux où elle laisse l'équipe autonome"
+  description_en: "In order to avoid bottlenecks and centralized control, mandates from the hierarchy are limited. Those responsible should clearly define areas where a decision can solely be taken by the hierarchy or is in team's hands"
   tags: '#delegationPoker'
   cardcolor: leadership_color
   textcolor: light_text
@@ -286,66 +242,89 @@
   cardPos: cardA
 
 - title: LEADERSHIP
-  icon: icons/leadership.svg
+  icon: icons/leadership_V2.svg
   theme: Space for sharing
-  description_fr: |
-    
-  description_en: |
-    
+  description_fr: "Les managers cherchent à faciliter la communication et les échanges, la montée en compétences des équipes (interne+externe). Du temps est consacré à l’échange et au partage : BBL, parcours pour les nouveaux arrivants, binomage avec mentor, mise en avant des membres les plus pédagogues, etc..."
+  description_en: "Managers seek to facilitate communication, sharing of knowledge and crosstraining of teammates both  internal and external. Time is dedicated to sharing: BBL, onboarding of new arrivals, mentorship pairings, strengthened influence of most knowledgable colleagues, etc..."
   tags: '#BBL #hackathon'
   cardcolor: leadership_color
   textcolor: light_text
-  iconcolor: #000000
+  iconcolor: #ffffff
   cardPos: cardB
 
 - title: LEADERSHIP
-  icon: icons/leadership.svg
+  icon: icons/leadership_V2.svg
   theme: Start with why
-  description_fr: |
-    
-  description_en: |
-    
+  description_fr: "Plutôt que de prendre des décisions sur le « quoi » ou le « comment », les PM exposent l'intention et la vision, de telle sorte que l'équipe puisse proposer les solutions en toute confiance"
+  description_en: "Instead of making decisions on \"what\" and \"how\", the manager communicates the intention and the vision, so that the team may propose the solutions with confidence"
   tags: '#hostLeadership'
   cardcolor: leadership_color
   textcolor: light_text
   iconcolor: #000000
   cardPos: cardC
 
-- title: PEOPLE
-  icon: icons/people.svg
-  theme: Develop People
-  description_fr: |
-    
-  description_en: |
-    
-  tags: '#trust #training'
-  cardcolor: people_color
-  textcolor: dark_text
-  iconcolor: black
+- title: PRODUCTION
+  icon: icons/production.svg
+  theme: To infinity and beyond
+  description_fr: "Les limites de scalabilité du service sont connus et fréquemment mis en parallèle de la charge réelle. Le changement d'échelle est géré de façon préventive, voire automatiquement. Les facteurs limitants côté applicatif sont clairement identifiés."
+  description_en: "lorem ipsum"
+  tags: '#scalability #load #capacityPlanning'
+  cardcolor: production_color
+  textcolor: light_text
+  iconcolor: #000000
   cardPos: cardA
 
-- title: PEOPLE
-  icon: icons/people.svg
-  theme: Respect
-  description_fr: |
-      
-    description_en: |
-      
-  tags: '#rightForFailure'
-  cardcolor: people_color
-  textcolor: dark_text
-  iconcolor: black
+- title: PRODUCTION
+  icon: icons/production.svg
+  theme: Alerting
+  description_fr: "Des alertes sont déclenchées en cas de disfonctionnement du service, en se basant sur des métriques métier et non techniques. L'équipe responsable du développement du service est celle qui reçoit ces alertes."
+  description_en: "lorem ipsum"
+  tags: '#oncall #uptime'
+  cardcolor: production_color
+  textcolor: light_text
+  iconcolor: #000000
   cardPos: cardB
 
-- title: PEOPLE
-  icon: icons/people.svg
-  theme: Role modeling
-  description_fr: |
-    
-  description_en: |
-    
-  tags: '#leadByExample'
-  cardcolor: people_color
+- title: PRODUCTION
+  icon: icons/production.svg
+  theme: Design for failure
+  description_fr: "Le système construit est résilient et est capable de fournir un usage dégradé en cas de défaillance de dépendances non indispensables. L'équipe est capable d'estimer le taux de disponibilité de son service en prenant en compte celui des éléments sous-jacents."
+  description_en: "lorem ipsum"
+  tags: '#resilience #chaos'
+  cardcolor: production_color
+  textcolor: light_text
+  iconcolor: #000000
+  cardPos: cardC
+
+- title: IMMERSION
+  icon: icons/immersion_V2.svg
+  theme: Eat your own dog food
+  description_fr: "L'équipe utilise régulièrement son propre service et les autres services exposés aux clients. Elle favorise l'utilisation d'autres services internes plutôt que de refaire les choses de son côté."
+  description_en: "lorem ipsum"
+  tags: '#clients #feedback'
+  cardcolor: immersion_color
   textcolor: dark_text
-  iconcolor: black
+  iconcolor: #000000
+  cardPos: cardA
+
+- title: IMMERSION
+  icon: icons/immersion_V2.svg
+  theme: Know your full stack
+  description_fr: "Toute l'équipe connaît les éléments sur lesquels elle se repose. Elle a connaissance du travail nécessaire en amont de l'hébergement de son service, depuis l'assemblage du hardware et sa mise en Datacenter jusqu'aux services intermédiaires"
+  description_en: "lorem ipsum"
+  tags: '#DC #teamwork'
+  cardcolor: immersion_color
+  textcolor: dark_text
+  iconcolor: #000000
+  cardPos: cardB
+
+- title: IMMERSION
+  icon: icons/immersion_V2.svg
+  theme: Cross-team work
+  description_fr: "En cas de dépendance envers une autre équipe nécessitant des modifications de leur côté, nous (l'équipe) nous sommes volontaires pour leur donner autant de feedback que nécessaire voire participer à l'implémentation. Dans le sens inverse, nous incitons les contributions"
+  description_en: "lorem ipsum"
+  tags: '#help #collaboration'
+  cardcolor: immersion_color
+  textcolor: dark_text
+  iconcolor: #000000
   cardPos: cardC

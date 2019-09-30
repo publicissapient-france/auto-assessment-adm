@@ -11,9 +11,6 @@ backend: svg
 #progress_bars: true
 
 #Enable some custom colors that can be used in any color
-#custom_colors:
-#  foo: '#abc'
-
 custom_colors:
   agile_color: '#0033CC'
   metrology_color: '#7030A0'
@@ -24,6 +21,8 @@ custom_colors:
   bizdev_partnership_color: '#99CC00'
   leadership_color: '#009242'
   people_color: '#66CCFF'
+  immersion_color: '#66CCFF' # Warning, duplicate of people color
+  production_color: '#9B3C11'
 
   light_text: '#FFFFFF'
   dark_text: '#000000'
