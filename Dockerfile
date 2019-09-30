@@ -1,18 +1,26 @@
-from debian:sid
-run sed -e 's/deb.debian.org/debian.mirrors.ovh.net/g' -i /etc/apt/sources.list
-run apt-get update \
-    && apt-get install -y \
+FROM ruby:2.4.4-jessie
+
+RUN apt-get update
+
+RUN apt-get install -y \
       bundler \
       fonts-linuxlibertine \
       inotify-tools \
       libcairo2-dev \
       libpango1.0-dev \
       pdftk \
-      poppler-utils \
-      ruby \
-    && apt-get clean 
-add Gemfile /workspace/Gemfile
-add Gemfile.lock /workspace/Gemfile.lock
-workdir /workspace
-run bundle install 
+      poppler-utils
+
+#RUN apt-get clean 
+
+ADD Gemfile /dependencies/Gemfile
+ADD Gemfile.lock /dependencies/Gemfile.lock
+
+RUN cd /dependencies && NOKOGIRI_USE_SYSTEM_LIBRARIES=1 bundle install 
+RUN mkdir /workspace
+
+WORKDIR /workspace
+
+RUN ruby --version
+
 add . /workspace

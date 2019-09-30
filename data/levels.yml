@@ -1,14 +1,13 @@
 ---
-- title: Non utilisée
+- title: Not known/used
   icon: icons/jarjar_binks.png
-- title: Tout juste démarrée
+- title: Learning started
   icon: icons/anakin.png
-- title: Quelques résultats
+- title: Applied, although only few results yet 
   icon: icons/luke.png
-- title: Résultats encourageants
+- title: Regularly gets encouraging results
   icon: icons/obiwan.png
-- title: Appliquée au quotidien
+- title: Part of team's culture
   icon: icons/quigonjinn.png
-- title: Masterisée
+- title: Masterize, teach to others and improve the practice
   icon: icons/yoda.png
-
